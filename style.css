@@ -1,0 +1,389 @@
+/**{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}*/
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+	font-family: BigNoodleTitling;
+}
+a{
+	text-decoration: none;
+	color: #3b8bba;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0,5s;
+}
+#menu1{
+	width: 1600px;
+	background: url(img/background.png) no-repeat;
+	height: 1000px;
+	margin: 0 auto;
+	
+}
+#menu1 #text{
+ 	
+    width: 600px;
+ 	height: 200px;
+    text-align: center;
+    line-height: 0.75;
+    
+   
+    position: absolute;
+    right: 1050px;
+  	top:300px;	
+  	
+}
+#text1{
+	font-size: 65px;
+	margin-bottom: 10px;
+	line-height: 50px;
+	text-align: center;
+}
+#text2{
+	font-size: 25px;
+	line-height: 40px;
+	text-align: center;
+}
+#text3{
+    width: 1600px;
+    height: 190px;
+    position: absolute;
+    left: -100px;
+    bottom: -300px;
+    line-height: 30px;
+    background: #4893e3;
+    opacity: 0.8;
+}
+#fixtext3{
+	width: 530px;
+    height: 200px;
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    left:80px;
+    top:40px;
+
+}
+#menu1 #search{
+	
+    background-color: #ffffff;
+    width: 500px;
+    height: 600px;
+  	float:left;
+  	
+ 	position: absolute;
+  	right: 500px;
+  	top:100px;
+}
+#menu1 #search #add{
+	border:2px solid #990000;
+  	float:left;
+}
+#menu1 div{
+	color: #FFFFFF;
+}
+#menu1 #search div{
+	color: black;
+}
+#menu1 #search #title{
+	font-size: 65px;
+	margin-top: 35px;
+	text-align: center;
+}
+#menu1 #search #dream{
+	font-size: 20px;
+	margin-top: 8px;
+	text-align: center;
+}
+#menu1 #search input[type="text"]{
+	display:block;
+	margin-left: 30px;
+	height: 52px;
+	width: 445px;
+	background-color: #EEEEEE;
+	margin-top: 30px;
+	border-top: none;
+	border-left: none;
+}
+#search-tour{
+	background: url(img/icon1.png) no-repeat;
+	background-position: 420px 18px; 
+	text-indent: 20px;
+	font-size: 20px;
+}
+#destination{
+	background: url(img/icon2.png) no-repeat;
+	background-position: 420px 18px; 
+	text-indent: 20px;
+	font-size: 20px;
+}
+#tour{
+	background: url(img/icon3.png) no-repeat;
+	background-position: 420px 18px; 
+	text-indent: 20px;
+	font-size: 20px;
+}
+#month{
+	background: url(img/icon4.png) no-repeat;
+	background-position: 420px 18px; 
+	text-indent: 20px;
+	font-size: 20px;
+}
+#menu1 #search input[type="submit"]{
+	display:block;
+	margin-left: 30px;
+	height: 60px;
+	width: 445px;
+	background-color: #3366CC;
+	margin-top: 30px;
+	border: none;
+	color: #FFFFFF;
+}
+#intro{
+	font-size: 25px;
+    text-align: center;
+    width: 950px;
+    margin:0 auto;
+    color:#555555;
+    margin-top: 25px;
+    
+}
+#menu2{
+	background-image:url(img/background2.png);
+    height: 400px;
+    width: 1600px;
+    margin:0 auto;
+    opacity: 0.9;
+    
+}
+.fiximg{
+	text-indent: 40px;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 250px;
+	font-family: BigNoodleTitling;
+	color: #00FF00;
+}
+#img1{
+	background: url(img/image1.png) no-repeat;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	float:left;
+	margin-top: 70px;
+	margin-left: 250px;
+	
+}
+#img2{
+	background: url(img/image2.png) no-repeat;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	float:left;
+	margin-top: 70px;
+	margin-left: 30px;
+	
+}
+#img3{
+	background: url(img/image3.png) no-repeat;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	float:left;
+	margin-top: 70px;
+	margin-left: 30px;
+	
+}
+#img4{
+	background: url(img/image4.png) no-repeat;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	float: left;
+	margin-top: 70px;
+	margin-left: 30px;
+	
+}
+#menu3{
+	font-size: 25px;
+    text-align: center;
+    width: 950px;
+    margin:0 auto;
+    color:#555555;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#menu3 #new{
+	font-size: 45px;
+}
+#menu4{
+	
+	padding-left: 430px;
+}
+#menu4 #living{
+	color: #47a0ff;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#menu4 #admin{
+	background: url(img/admin.png) no-repeat;
+	text-indent: 20px;
+	float: left;
+
+}
+#menu4 #day{
+	background: url(img/icon4.png) no-repeat;
+	margin-left: 200px;
+	text-indent: 20px;
+}
+#menu4 #newfeed{
+	margin-top: 20px;
+	width: 350px;
+}
+#so1{
+	float: left;
+	margin-bottom: 30px;
+}
+#so2{
+	float:left;
+	margin-left: 30px;
+}
+#so3{
+	float:left;
+	margin-left: 30px;
+}
+#menu5{
+	
+	background-image: url(img/background3.png);
+	margin:0 auto;
+	width: 1600px;
+	height: 750px;
+	text-align: center;
+	clear:left;
+}	
+#menu5 #luxury{
+	font-size: 120px;
+	color: #FFFFFF;
+	padding-top: 250px;
+}
+#menu5 #peace{
+	font-size: 30px;
+	color: #FFFFFF;
+}
+#menu5 #end{
+	margin-top: 30px;
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+	border: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	background-color: #6699FF;
+}
+#menu7-1{
+	margin-top: 30px;
+	
+	height: 300px;
+	width: 300px;
+	margin-left: 300px;
+	float:left;
+}
+#menu7-1 #findfind{
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+#menu7-1 #info-find{
+	font-size: 15px;
+	line-height: 25px;
+	color: #606060;
+}
+#menu7-2{
+	margin-top: 30px;
+	
+	height: 300px;
+	width: 300px;
+	margin-left: 80px;
+	float:left;
+}
+#menu7-2 #findfind2{
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+#menu7-2 #info-find2{
+	font-size: 15px;
+	line-height: 25px;
+	color: #606060;
+}
+#menu7-3{
+	margin-top: 30px;
+	
+	height: 300px;
+	width: 300px;
+	
+	float:left;
+}
+#menu7-3 #findfind3{
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+#menu7-3 .info-find3 a{
+	color: #606060;
+    width: 45px;
+    height: 45px;
+    border: 3px solid;
+    border-radius: 100%;
+    background-color: #47a0ff;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+  	color: #FFFFFF;
+  	float:left;
+}
+
+#menu7-4{
+	margin-top: 30px;
+	
+	height: 300px;
+	width: 300px;
+	margin-left: 40px;
+	float:left;
+}
+#menu7-4 #endnew{
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+#menu7-4 #endfrag{
+	font-size: 15px;
+	line-height: 25px;
+}
+#menu7-4 #endfrag #endtext{
+	background-color: #EEEEEE;
+	text-indent: 15px;
+	width: 200px;
+	height: 40px;
+	border: none;
+	float:left;
+}
+#endsubmit{
+	float:left;
+	margin-left: 10px;
+	border: 2px solid #CCCCCC;
+	width: 90px;
+	height: 42px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0066FF;
+}
+
